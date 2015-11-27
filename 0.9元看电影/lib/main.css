@@ -1,0 +1,1042 @@
+@import url(http://s.dodoh5.com//static/css/preview/font-awesome.css?t=20151125143327);
+
+html, body, h1, h2, h3, h4, h5, h6, div, p, ul, ol, li, a, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+    font-weight: 700
+}
+
+ul, li {
+    list-style: none
+}
+
+html, body {
+    font: 400 12px/1.5 Helvetica, arial, sans-serif;
+    background: #fff;
+    color: #333
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400
+}
+
+.clearFix:after {
+    clear: both;
+    content: '.';
+    height: 0;
+    display: block;
+    visibility: hidden
+}
+
+input, a, :focus {
+    outline: 0;
+    resize: none
+}
+
+.hide {
+    display: none !important
+}
+
+html, body {
+    height: 100%
+}
+
+.loading-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99999
+}
+
+.loading-effect {
+    display: none;
+    position: absolute;
+    width: 640px;
+    height: 1008px;
+    margin: -504px 0 0 -320px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5)
+}
+
+.loading-effect1 {
+    font-size: 24px
+}
+
+.loading-effect1 .logo {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 60%;
+    height: 25%;
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.loading-effect1 .logo img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.loading-effect1 .progress-box {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 60%
+}
+
+.loading-effect1 .progress-box .progress_bar {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px
+}
+
+.loading-effect1 .progress-box .progress_bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 10px
+}
+
+.loading-effect1 .progress-box .progress_text {
+    margin-top: 20px;
+    text-align: center
+}
+
+.loading-effect1 .description {
+    font-size: 20px;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center
+}
+
+.loading-effect2 {
+    font-size: 24px
+}
+
+.loading-effect2 .logo {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 25%;
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.loading-effect2 .logo img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.loading-effect2 .progress-box {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 60%;
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.loading-effect2 .progress-box .progress_bar {
+    position: relative;
+    width: 200px;
+    height: 200px
+}
+
+.loading-effect2 .progress-box .progress_bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%
+}
+
+.loading-effect2 .progress-box .progress_bar span.circle1, .loading-effect2 .progress-box .progress_bar span.circle3 {
+    border: 10px solid #ddd
+}
+
+.loading-effect2 .progress-box .progress_bar span.circle3 {
+    clip: rect(0, 100px, 200px, 0)
+}
+
+.loading-effect2 .progress-box .progress_bar span.circle2, .loading-effect2 .progress-box .progress_bar span.circle4 {
+    top: 2px;
+    left: 2px;
+    width: 196px;
+    height: 196px;
+    border: 6px solid
+}
+
+.loading-effect2 .progress-box .progress_bar span.circle2 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    clip: rect(0, 98px, 196px, 0)
+}
+
+.loading-effect2 .progress-box .progress_bar span.circle4 {
+    display: none;
+    clip: rect(0, 196px, 196px, 98px)
+}
+
+.loading-effect2 .progress-box .progress_bar span.progress_text {
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px
+}
+
+.loading-effect2 .progress-box .progress_text {
+    margin-top: 20px;
+    text-align: center
+}
+
+.loading-effect2 .description {
+    font-size: 20px;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center
+}
+
+.loading-effect3 {
+    font-size: 24px
+}
+
+.loading-effect3 .progress-box {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.loading-effect3 .progress-box .progress_bar {
+    position: relative;
+    width: 200px;
+    height: 200px
+}
+
+.loading-effect3 .progress-box .progress_bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%
+}
+
+.loading-effect3 .progress-box .progress_bar span.circle1, .loading-effect3 .progress-box .progress_bar span.circle3 {
+    border: 10px solid #ddd
+}
+
+.loading-effect3 .progress-box .progress_bar span.circle3 {
+    clip: rect(0, 100px, 200px, 0)
+}
+
+.loading-effect3 .progress-box .progress_bar span.circle2, .loading-effect3 .progress-box .progress_bar span.circle4 {
+    top: 2px;
+    left: 2px;
+    width: 196px;
+    height: 196px;
+    border: 6px solid
+}
+
+.loading-effect3 .progress-box .progress_bar span.circle2 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    clip: rect(0, 98px, 196px, 0)
+}
+
+.loading-effect3 .progress-box .progress_bar span.circle4 {
+    display: none;
+    clip: rect(0, 196px, 196px, 98px)
+}
+
+.loading-effect3 .progress-box .progress_bar span.logo {
+    padding: 25px
+}
+
+.loading-effect3 .progress-box .progress_bar span.logo span {
+    position: static;
+    overflow: hidden;
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.loading-effect3 .progress-box .progress_bar span.logo span img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.loading-effect3 .progress-box .progress_text {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: center
+}
+
+.loading-effect3 .description {
+    font-size: 20px;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center
+}
+
+.loading-wrap.loading {
+    display: block;
+    background: #fff;
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.loading-wrap.loading .progress {
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #04b000
+}
+
+.loading-wrap.loading .progress img {
+    width: 130px;
+    margin: 0 auto 10px;
+    display: block
+}
+
+.loading-wrap.loading .progress_bar {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 80%;
+    height: 6px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px
+}
+
+.loading-wrap.loading .progress_bar span {
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #04b000;
+    border-radius: 4px
+}
+
+.page-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.page-item {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    animation-delay: 0s;
+    animation-duration: .6s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: .6s
+}
+
+.page-item a {
+    display: block
+}
+
+.page-item.active {
+    display: block
+}
+
+.page-item .page-bg-box, .page-item .page-item-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 640px;
+    height: 1008px;
+    margin: -504px 0 0 -320px;
+    backface-visibility: hidden;
+    -webkit-user-select: none;
+    -webkit-user-drag: none
+}
+
+.page-item .page-bg-box img, .page-item .page-item-content img {
+    -webkit-user-select: none;
+    -webkit-user-drag: none
+}
+
+.show-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.show-image img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.show-chart-wrap {
+    position: absolute
+}
+
+.show-chart {
+    width: 100%;
+    height: 100%
+}
+
+.share-tip {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 10000;
+    top: 0;
+    left: 0
+}
+
+.share-tip span {
+    /*background: url() no-repeat;*/
+    background-size: contain;
+    width: 127px;
+    height: 128px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    display: block
+}
+
+.tabTipIcon {
+    font-size: 22px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 999;
+    color: #fff
+}
+
+.tabTipIcon.vertical {
+    left: 50%;
+    margin-left: -15px;
+    bottom: 20px;
+    -webkit-animation: vertical 1.5s linear infinite
+}
+
+.tabTipIcon.horizontal {
+    top: 50%;
+    margin-top: -15px;
+    right: 20px;
+    -webkit-animation: horizontal 1.5s linear infinite
+}
+
+@-webkit-keyframes vertical {
+    0% {
+        -webkit-transform: translateY(0) scaleX(1);
+        opacity: 0
+    }
+    20% {
+        -webkit-transform: translateY(20px) scaleX(1.2);
+        opacity: 0
+    }
+    40% {
+        -webkit-transform: translateY(10px) scaleX(1.15);
+        opacity: 1
+    }
+    60% {
+        -webkit-transform: translateY(5px) scaleX(1.1);
+        opacity: 1
+    }
+    80% {
+        -webkit-transform: translateY(2px) scaleX(1.1);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: translateY(0) scaleX(1);
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes horizontal {
+    0% {
+        -webkit-transform: translateX(0) scaleX(1);
+        opacity: 0
+    }
+    20% {
+        -webkit-transform: translateX(20px) scaleX(1.2);
+        opacity: 0
+    }
+    40% {
+        -webkit-transform: translateX(10px) scaleX(1.15);
+        opacity: 1
+    }
+    60% {
+        -webkit-transform: translateX(5px) scaleX(1.1);
+        opacity: 1
+    }
+    80% {
+        -webkit-transform: translateX(2px) scaleX(1.1);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: translateX(0) scaleX(1);
+        opacity: 0
+    }
+}
+
+
+
+.show-text-wrap {
+    cursor: default
+}
+
+.video-tip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.video-tip .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px
+}
+
+.video-tip .close-btn:before, .video-tip .close-btn:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 30px;
+    background-color: #fff
+}
+
+.video-tip .close-btn:before {
+    -webkit-transform: rotate(45deg)
+}
+
+.video-tip .close-btn:after {
+    -webkit-transform: rotate(-45deg)
+}
+
+.video-tip .video-content {
+    width: 100%;
+    height: 60%
+}
+
+.video-tip .video-content iframe, .video-tip .video-content object, .video-tip .video-content embed {
+    width: 100%;
+    height: 98%
+}
+
+.show-slider-wrap .show-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.show-slider-wrap .show-slider li {
+    display: box;
+    display: -webkit-box;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center
+}
+
+.show-slider-wrap .show-slider li img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.show-slider-wrap .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center
+}
+
+.show-slider-wrap .dots li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 6px;
+    text-indent: -999em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s
+}
+
+.show-slider-wrap .dots li.active {
+    background: #fff;
+    opacity: 1
+}
+
+.show-slider-wrap .arrows .prev, .show-slider-wrap .arrows .next {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    cursor: default
+}
+
+.show-slider-wrap .arrows .prev {
+    left: 0
+}
+
+.show-slider-wrap .arrows .next {
+    right: 0
+}
+
+.show-slider-wrap .arrows .arrowTop {
+    top: 0 !important;
+    margin-top: 0
+}
+
+.show-slider-wrap .arrows .arrowMiddle {
+    top: 50% !important;
+    margin-top: -40px
+}
+
+.show-slider-wrap .arrows .arrowBottom {
+    top: auto !important;
+    bottom: 0;
+    margin-top: 0
+}
+
+.show-slider-wrap .arrows .arrowCustom {
+    margin-top: 0
+}
+
+.show-slider-wrap .arrows0 .prev, .show-slider-wrap .arrows1 .prev, .show-slider-wrap .arrows0 .next, .show-slider-wrap .arrows1 .next {
+    background: rgba(0, 0, 0, .3) !important
+}
+
+.show-slider-wrap .arrows0 .prev:after, .show-slider-wrap .arrows1 .prev:after, .show-slider-wrap .arrows0 .next:after, .show-slider-wrap .arrows1 .next:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    margin-top: -13px;
+    border-style: solid
+}
+
+.show-slider-wrap .arrows0 .prev:after, .show-slider-wrap .arrows1 .prev:after {
+    left: 10px;
+    border-width: 15px 25px 15px 0;
+    border-color: transparent #fff transparent transparent
+}
+
+.show-slider-wrap .arrows0 .next:after, .show-slider-wrap .arrows1 .next:after {
+    right: 10px;
+    border-width: 15px 0 15px 25px;
+    border-color: transparent transparent transparent #fff
+}
+
+.show-slider-wrap .arrows1 .prev, .show-slider-wrap .arrows1 .next {
+    background: none !important
+}
+
+.show-slider-wrap .arrows1 .prev:after {
+    border-color: transparent #000 transparent transparent
+}
+
+.show-slider-wrap .arrows1 .next:after {
+    border-color: transparent transparent transparent #000
+}
+
+.show-slider-wrap .arrows2 .prev, .show-slider-wrap .arrows2 .next {
+    background: none !important
+}
+
+.show-slider-wrap .arrows2 .prev:after, .show-slider-wrap .arrows2 .next:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    font: normal normal normal 70px/80px FontAwesome
+}
+
+.show-slider-wrap .arrows2 .prev:after {
+    left: 14px;
+    content: '\f104'
+}
+
+.show-slider-wrap .arrows2 .next:after {
+    right: 14px;
+    content: '\f105'
+}
+
+.dir-btn, .nav-btn {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(226, 57, 78, .75);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    bottom: 30px;
+    z-index: 1000
+}
+
+.dir-btn {
+    left: 30px
+}
+
+.nav-btn {
+    right: 30px
+}
+
+.pre-dir {
+    position: fixed;
+    width: 70%;
+    border-right: 8px solid rgba(0, 0, 0, .4);
+    background: #fff;
+    height: 100%;
+    display: box;
+    display: -webkit-box;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -webkit-animation-duration: .6s;
+    display: none;
+    z-index: 1000;
+    top: 0;
+    left: 0
+}
+
+
+
+.pre-dir ul {
+    -webkit-box-flex: 1;
+    overflow: auto;
+    margin: 10px 20px 0
+}
+
+.pre-dir ul li {
+    font-size: 14px;
+    position: relative;
+    height: 40px;
+    line-height: 40px
+}
+
+.pre-dir ul li b {
+    border-bottom: 2px dashed #87C2EA;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    width: 100%;
+    left: 0
+}
+
+.pre-dir ul li span {
+    font-size: 14px;
+    color: #87C2EA;
+    position: absolute;
+    right: -2px;
+    top: 50%;
+    margin-top: -8px
+}
+
+.pre-dir ul li strong {
+    background: #fff;
+    padding-right: 10px;
+    font-weight: 400;
+    position: relative;
+    z-index: 10
+}
+
+.pre-dir .dir-bot {
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: rgba(0, 0, 0, .7);
+    font-size: 15px
+}
+
+.pre-dir .dir-bot .dir-back {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center
+}
+
+.pre-dir .dir-bot .dir-service {
+    float: right;
+    margin-right: 10px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    text-align: right;
+    overflow: hidden;
+    width: 110px
+}
+
+
+
+.pre-nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    width: 40%;
+    display: none;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -webkit-animation-duration: .6s;
+    z-index: 1000
+}
+
+.pre-nav .pre-logo {
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 45%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain
+}
+
+.pre-nav .pre-logo a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.pre-nav .pre-nav-con {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    position: relative;
+    width: 100%
+}
+
+.pre-nav .pre-nav-con ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%
+}
+
+.pre-nav .pre-nav-con ul li {
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    width: 80%;
+    margin: 0 auto
+}
+
+.pre-nav .pre-nav-con ul li a {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    display: block;
+    font-size: 14px;
+    line-height: 35px;
+    padding-left: 5px;
+    width: 100%
+}
+
+.pre-nav .pre-nav-con ul li a strong {
+    font-weight: 400;
+    margin-left: 5px
+}
+
+.pre-nav .nav-back {
+    background: rgba(0, 0, 0, .7);
+    height: 40px;
+    line-height: 40px;
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center;
+    color: #e2394e;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.pre-dir.style2 {
+    width: 59.375%;
+    border: 0 none
+}
+
+.pre-dir.style2 ul {
+    margin: 10px 29px 0 27px
+}
+
+.pre-dir.style2 ul li {
+    color: gray
+}
+
+.pre-dir.style2 ul li b {
+    border-bottom: 1px solid #e84546;
+    width: 90%
+}
+
+.pre-dir.style2 ul li span {
+    width: 6px;
+    height: 9px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    background-size: contain;
+    margin-top: -7px;
+    right: 0
+}
+
+.pre-dir.style2 .dir-title {
+    width: 73.68421053%;
+    margin: 40px 0 40px 20px
+}
+
+.pre-dir.style2 .dir-bot .dir-back {
+    display: block;
+    background-size: 5px 9px
+}
+
+.pre-dir.style2 .dir-bot .dir-service a {
+    color: #e84546;
+    padding-right: 20px
+}
+
+.dir-btn.style2 {
+    background: rgba(232, 69, 70, .5);
+    display: box;
+    display: -webkit-box;
+    box-align: center;
+    -webkit-box-align: center;
+    box-pack: center;
+    -webkit-box-pack: center;
+    width: 30px;
+    height: 30px
+}
+
+.dir-btn.style2 .dir-btn-icon {
+
+    background-size: contain;
+    width: 16px;
+    height: 15px;
+    display: block
+}
+
+.nav-btn-v {
+    right: 30px;
+    position: fixed;
+    bottom: 30px;
+    z-index: 1000
+}
+
+.nav-btn-v a {
+    display: box;
+    display: -webkit-box;
+    width: 30px;
+    height: 30px;
+    box-pack: center;
+    -webkit-box-pack: center;
+    box-align: center;
+    -webkit-box-align: center;
+    background: rgba(232, 69, 70, .5);
+    border-radius: 50%
+}
+
+.nav-btn-v a span {
+
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    display: block
+}

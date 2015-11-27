@@ -4,8 +4,8 @@
  */
 @font-face {
     font-family: FontAwesome;
-    src: url(https://img.99bill.com/seashell/html/activity/20151127_movie/fontawesome-webfont.eot?t=20151125143327&v=4.3.0);
-    src: url(https://img.99bill.com/seashell/html/activity/20151127_movie/fontawesome-webfont.eot?t=20151125143327&#iefix&v=4.3.0) format('embedded-opentype'), url(https://img.99bill.com/seashell/html/activity/20151127_movie/fontawesome-webfont.woff2?t=20151125143327&v=4.3.0) format('woff2'), url(https://img.99bill.com/seashell/html/activity/20151127_movie/fontawesome-webfont.woff?t=20151125143327&v=4.3.0) format('woff'), url(https://img.99bill.com/seashell/html/activity/20151127_movie/fontawesome-webfont.ttf?t=20151125143327&v=4.3.0) format('truetype'), url(https://img.99bill.com/seashell/html/activity/20151127_movie/fontawesome-webfont.svg?t=20151125143327&v=4.3.0#fontawesomeregular) format('svg');
+    src: url(https://www.99bill.com/seashell/html/activity/151127_movie/lib/fontawesome-webfont.eot?t=20151125143327&v=4.3.0);
+    src: url(https://www.99bill.com/seashell/html/activity/151127_movie/lib/fontawesome-webfont.eot?t=20151125143327&#iefix&v=4.3.0) format('embedded-opentype'), url(https://www.99bill.com/seashell/html/activity/151127_movie/lib/fontawesome-webfont.woff2?t=20151125143327&v=4.3.0) format('woff2'), url(https://www.99bill.com/seashell/html/activity/151127_movie/lib/fontawesome-webfont.woff?t=20151125143327&v=4.3.0) format('woff'), url(https://www.99bill.com/seashell/html/activity/151127_movie/lib/fontawesome-webfont.ttf?t=20151125143327&v=4.3.0) format('truetype'), url(https://www.99bill.com/seashell/html/activity/151127_movie/lib/fontawesome-webfont.svg?t=20151125143327&v=4.3.0#fontawesomeregular) format('svg');
     font-weight: 400;
     font-style: normal
 }
